@@ -13,8 +13,7 @@ adviceGenegartorBtn.addEventListener("click", () => {
     .then(response => {
         adviceId.textContent = response.slip.id
         adviceText.textContent = response.slip.advice
-    }
-    ).catch(err => console.log(err));
+    }).catch(err => console.log(err));
 });
 
 
